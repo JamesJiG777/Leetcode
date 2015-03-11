@@ -24,7 +24,7 @@ public class ThreeSum {
             
             res.addAll(curRes);
         }
-        return res;
+        return res;//返回result
     }
     private ArrayList<ArrayList<Integer>> twoSum(int[] num, int end,int target)
     {
